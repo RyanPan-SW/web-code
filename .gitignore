@@ -1,0 +1,17 @@
+# misc
+.DS_Store
+
+# node_modules
+node_modules
+*/node_modules/*
+
+
+# *.lock
+yarn.lock
+*/yarn.lock
+
+
+# package.
+package-lock.json
+*/package-lock.json
+
