@@ -16,7 +16,7 @@ export default {
       this.console.log(info.filename)
       let [,row,colume] = matchUrl.match(/:(\d+):(\d+)/);
       info.row = row;
-      info.colume = colume; // 上线的时候代码会压缩 source-map 找到对应的真实的报错
+      info.colume = colume; // 上线的时候代码会压缩 source-map 找到对应的真实的报错 (这里就需要找到方法反向编译找到对应的代码所在的行、列)
       cb(info);
     }
   }
