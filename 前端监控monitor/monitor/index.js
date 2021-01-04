@@ -7,7 +7,7 @@
 //   }
 //   return arr.join('&'); //{a:1,b:2} =>a=1&b=2
 // }
-// perf.init((data)=>{ // 获取到页面性能相关的数据
+// perf.init((data)=>{ // 获取到页面性能相关的数据 (https://juejin.cn/post/6844903651182379021#heading-7)
 //   // 图片可能没大小 空的图片
 //   new Image().src = "/p.gif?" + fotmatObj(data);
 //   console.log(data);
